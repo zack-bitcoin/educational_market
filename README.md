@@ -20,7 +20,8 @@ it automatically starts in the background. You can attach to it to be able to ru
 ```sh attach.sh```
 
 After attaching, you can turn the system off and preserve the current state like this:
-```utils:off().
+```
+utils:off().
 halt().
 ```
 
