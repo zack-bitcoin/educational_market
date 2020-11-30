@@ -4,12 +4,13 @@ Educational Market
 The purpose of this project is to help people learn about prediction markets.
 
 Try out the live version: http://46.101.185.98:8000/home.html
+
 Here is the control panel for admins: http://46.101.185.98:8000/admin.html
 
 turn it on:
 ```sh start.sh```
 
-the page for users can be seen here:
+after you turn it on, the local page for users can be seen here:
 http://127.0.0.1:8000/home.html
 
 the page for admins is here:
