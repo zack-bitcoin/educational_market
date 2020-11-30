@@ -30,7 +30,7 @@
                         reload_balance();
                     });
             });
-        });
+                  });
     div.appendChild(buy_shares);
     var combine_shares = button_maker2(
         "combine shares",
@@ -106,7 +106,7 @@
                              var text = atob(market[2]);
                              var trues = market[3];
                              var falses = market[4];
-                             var price = (trues / falses).toFixed(2).toString();
+                             var price = (trues / (falses + trues)).toFixed(2).toString();
                              var span = document.createElement("span");
                              span.innerHTML = "market: \""
                                  .concat(text)
