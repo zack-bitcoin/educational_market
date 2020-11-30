@@ -3,6 +3,9 @@ Educational Market
 
 The purpose of this project is to help people learn about prediction markets.
 
+Try out the live version: http://46.101.185.98:8000/home.html
+Here is the control panel for admins: http://46.101.185.98:8000/admin.html
+
 turn it on:
 ```sh start.sh```
 
